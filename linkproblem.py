@@ -1,5 +1,8 @@
 __author__ = 'rafael'
 
+import re, urllib2
+from linknode import *
+
 class LinkProblem:
     """The abstract class for a formal problem.  You should subclass this and
     implement the method successor, and possibly __init__, goal_test, and
@@ -19,7 +22,7 @@ class LinkProblem:
         all at once. Iterators will work fine within the framework."""
         abstract
 
-    def goal_test(self, state):
+    def goalTest(self, state):
         """Return True if the state is a goal. The default method compares the
         state to self.goal, as specified in the constructor. Implement this
         method if checking against a single self.goal is not enough."""
@@ -37,3 +40,26 @@ class LinkProblem:
         """For optimization problems, each state has a value.  Hill-climbing
         and related algorithms try to maximize this value."""
         abstract
+
+    def getActions(self, node, listLinks = False):
+        regexUrl = "\\s*(?i)href\\s*=\\s*(\"([^\"]*\")|'[^']*'|([^'\">\\s]+))"
+        try:
+            response = urllib2.urlopen(node.state)
+            source = response.read()
+            urls = re.findall(regexUrl, source)
+
+            for i, url in list(enumerate(urls)):
+                urls[i] = url[0].replace('"', "")
+                if listLinks:
+                    print url
+            return list(set(urls))
+        except urllib2.HTTPError, error:
+            print error.code
+            return node.state
+        except:
+            return node.state
+
+
+    def childNode(self, node, action):
+        nodeToReturn = LinkNode(action, node, action)
+        return nodeToReturn
