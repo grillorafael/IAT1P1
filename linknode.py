@@ -19,7 +19,10 @@ class LinkNode:
             self.depth = parent.depth + 1
 
     def __repr__(self):
-        return "<Parent %s <Node %s Depth: %s >>" % (self.parent.state, self.state, self.depth,)
+        if self.parent:
+            return "<Parent %s <Node %s Depth: %s >>" % (self.parent.state, self.state, self.depth,)
+        else:
+            return "<Parent null <Node %s Depth: %s >>" % (self.state, self.depth,)
 
     def path(self):
         "Create a list of nodes from the root to this node."

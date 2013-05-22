@@ -5,8 +5,8 @@
     <ignored path="IAT1P1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.py" changelist="aacde72f-9b77-45d5-bd03-c93e8b063731" time="1369151339969" ignored="false" />
-    <file path="/linknode.py" changelist="aacde72f-9b77-45d5-bd03-c93e8b063731" time="1369151436888" ignored="false" />
-    <file path="/linkproblem.py" changelist="aacde72f-9b77-45d5-bd03-c93e8b063731" time="1369150132227" ignored="false" />
+    <file path="/linknode.py" changelist="aacde72f-9b77-45d5-bd03-c93e8b063731" time="1369186841380" ignored="false" />
+    <file path="/linkproblem.py" changelist="aacde72f-9b77-45d5-bd03-c93e8b063731" time="1369186593595" ignored="false" />
     <file path="/search.py" changelist="aacde72f-9b77-45d5-bd03-c93e8b063731" time="1369150248071" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +27,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -62,6 +61,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -71,10 +71,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="46" selection-start="728" selection-end="728" vertical-scroll-proportion="0.5785124">
+            <state line="13" column="61" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#182#201#0" expanded="true" />
               </folding>
@@ -85,28 +85,16 @@
       <file leaf-file-name="search.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="42" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+            <state line="25" column="42" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="482" column="11" selection-start="14577" selection-end="14577" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-                <marker date="1368732648000" expanded="true" signature="16988:17016" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linknode.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="linknode.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linknode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="25" selection-start="1210" selection-end="1216" vertical-scroll-proportion="0.0">
+            <state line="24" column="59" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.5292887">
               <folding />
             </state>
           </provider>
@@ -115,10 +103,8 @@
       <file leaf-file-name="linkproblem.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linkproblem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="8" selection-start="2549" selection-end="2549" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#23#41#0" expanded="true" />
-              </folding>
+            <state line="39" column="29" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,9 +121,9 @@
       <list>
         <option value="$PROJECT_DIR$/node.py" />
         <option value="$PROJECT_DIR$/utils.py" />
-        <option value="$PROJECT_DIR$/linkproblem.py" />
         <option value="$PROJECT_DIR$/search.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/linkproblem.py" />
         <option value="$PROJECT_DIR$/linknode.py" />
       </list>
     </option>
@@ -176,8 +162,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,12 +182,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Specta" />
@@ -215,6 +201,14 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -393,6 +387,25 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="aacde72f-9b77-45d5-bd03-c93e8b063731" name="Default" comment="" />
@@ -402,7 +415,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -421,8 +434,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -493,9 +506,7 @@
     <entry file="file://$PROJECT_DIR$/linkproblem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="73" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -518,9 +529,7 @@
     <entry file="file://$PROJECT_DIR$/linkproblem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="31" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -543,9 +552,7 @@
     <entry file="file://$PROJECT_DIR$/linkproblem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="31" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -568,9 +575,7 @@
     <entry file="file://$PROJECT_DIR$/linkproblem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="31" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -583,43 +588,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="482" column="11" selection-start="14577" selection-end="14577" vertical-scroll-proportion="0.0">
+        <state line="482" column="11" selection-start="14577" selection-end="14577" vertical-scroll-proportion="0.020661157">
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
-            <marker date="1368732648000" expanded="true" signature="16988:17016" placeholder="..." />
+            <marker date="1368732648000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linknode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="25" selection-start="1210" selection-end="1216" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linkproblem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="8" selection-start="2549" selection-end="2549" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
+        <state line="39" column="29" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="42" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+        <state line="25" column="42" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="46" selection-start="728" selection-end="728" vertical-scroll-proportion="0.5785124">
+        <state line="13" column="61" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#182#201#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linknode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="59" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.5292887">
+          <folding />
         </state>
       </provider>
     </entry>
