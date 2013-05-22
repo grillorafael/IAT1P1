@@ -1,10 +1,8 @@
 __author__ = 'rafael'
 
-
 from utils import *
 
-
-def deepSearch(problem, maxIteration = 400, maxDepth = 2):
+def deepSearch(problem, maxIteration = infinity, maxDepth = infinity):
     currentNode = problem.initial
 
     if problem.goalTest(currentNode.state):
@@ -31,7 +29,6 @@ def deepSearch(problem, maxIteration = 400, maxDepth = 2):
                             return child
                         if child.depth < maxDepth:
                             frontier.append(child)
+        print "\n"
         iteration+=1
-
-    print iteration
-    return
+    return -1
