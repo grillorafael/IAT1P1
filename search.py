@@ -2,7 +2,7 @@ __author__ = 'rafael'
 
 from utils import *
 
-def deepSearch(problem, maxIteration = infinity, maxDepth = infinity):
+def depthSearch(problem, maxIteration = infinity, maxDepth = infinity):
     currentNode = problem.initial
 
     if problem.goalTest(currentNode.state):
